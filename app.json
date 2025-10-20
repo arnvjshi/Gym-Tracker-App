@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "Gym Tracker",
+    "slug": "gym-tracker-app",
+    "scheme": "gymtracker",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "updates": {
+      "url": "",
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#0f172a"
+      },
+      "package": "com.arnvjshi.gymtrackerapp"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
