@@ -12,10 +12,12 @@ export default function RootLayout() {
         headerStyle: { backgroundColor: '#0f172a' },
         headerTintColor: '#e5e7eb',
         tabBarStyle: { backgroundColor: '#0b1220', borderTopColor: '#111827' },
+        tabBarLabelStyle: { fontSize: 11 },
       }}>
         <Tabs.Screen name="index" options={{ title: 'Dashboard' }} />
-        <Tabs.Screen name="weigh-in" options={{ title: 'Weigh-In' }} />
-        <Tabs.Screen name="exercises" options={{ title: 'Exercises' }} />
+        <Tabs.Screen name="exercises" options={{ title: 'Workouts' }} />
+        <Tabs.Screen name="muscle-map" options={{ title: 'Muscles' }} />
+        <Tabs.Screen name="weigh-in" options={{ title: 'Weight' }} />
         <Tabs.Screen name="profile" options={{ title: 'Profile' }} />
       </Tabs>
     </>

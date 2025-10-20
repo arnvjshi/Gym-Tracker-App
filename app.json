@@ -1,25 +1,33 @@
 {
   "expo": {
-    "name": "Gym Tracker",
+    "name": "Gym Tracker Pro",
     "slug": "gym-tracker-app",
     "scheme": "gymtracker",
-    "version": "0.1.0",
+    "version": "2.0.0",
     "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#0b1220"
+    },
     "updates": {
-      "url": "",
       "fallbackToCacheTimeout": 0
     },
     "assetBundlePatterns": [
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.arnvjshi.gymtrackerapp",
+      "buildNumber": "1.0.0"
     },
     "android": {
       "adaptiveIcon": {
         "backgroundColor": "#0f172a"
       },
-      "package": "com.arnvjshi.gymtrackerapp"
+      "package": "com.arnvjshi.gymtrackerapp",
+      "versionCode": 1,
+      "permissions": []
     },
     "web": {
       "bundler": "metro",
@@ -30,6 +38,13 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "c379544a-ba7e-4cd5-acea-cd4e5d495d3b"
+      }
+    },
+    "owner": "arnvjshi"
   }
 }
