@@ -351,3 +351,6 @@ eas build --platform android --profile preview
 
 **Ready to build muscle? Start logging workouts and watch your progress!** 💪
 
+
+WHY TF ARE YOU READING TS
+
