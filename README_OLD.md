@@ -47,3 +47,9 @@ npm run start
 - BMI calculation from height + latest weight
 - Exercise templates and timers
 - Export/import data (JSON)
+
+WHY TF ARE YOU READING TS
+SYBAU
+ded
+features
+damm girr
